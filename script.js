@@ -223,8 +223,7 @@ document.addEventListener('DOMContentLoaded', function () {
             el.style.transition =
                 'all 0.6s ease';
 
-            el.style.transitionDelay =
-                `${index * 0.1}s`;
+            el.style.transitionDelay = (index * 0.1) + 's';
 
             animationObserver.observe(el);
         });
