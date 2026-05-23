@@ -216,7 +216,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 showNotification('Contact section coming soon!', 'info');
             }
         } else if (button.textContent.includes('Download CV')) {
-            return;
+            // Handle CV download
+            showNotification('CV download will be available soon!', 'info');
         }
     }
 
