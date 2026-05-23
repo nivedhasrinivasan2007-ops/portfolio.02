@@ -1,4 +1,3 @@
-```javascript
 // Enhanced JavaScript for Portfolio Website
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -664,4 +663,3 @@ window.addEventListener(
         );
     }
 );
-```
